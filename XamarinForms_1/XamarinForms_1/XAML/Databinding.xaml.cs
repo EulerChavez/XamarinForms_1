@@ -12,6 +12,7 @@ using Xamarin.Forms.Xaml;
 
 namespace XamarinForms_1.XAML {
 
+    // 
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Databinding : ContentPage {
 
