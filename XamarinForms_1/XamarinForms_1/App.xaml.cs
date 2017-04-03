@@ -13,7 +13,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new XamarinForms_1.GreetPage();
+            MainPage = new XamarinForms_1.XAML.Databinding();
 
         }
 
