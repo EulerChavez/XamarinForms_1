@@ -5,13 +5,13 @@
              Title="Databinding">
     <ScrollView>
         <StackLayout Padding="10"
-                 HorizontalOptions="Center"
-                 VerticalOptions="Center">
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     BindingContext="{x:Reference slider}">
+            <BoxView Color="Green" Opacity="{Binding Value}"/>
             <Label x:Name="label" 
-                   Text="{Binding 
-                            Source={x:Reference slider}, 
-                            Path=Value, 
-                            StringFormat='Value is {0:F2}'}"/>
+                   Text="{Binding Value, StringFormat='Value is {0:F2}'}"
+                   Opacity="{Binding Value}"/>
             <Slider x:Name="slider" />
         </StackLayout>
     </ScrollView>
