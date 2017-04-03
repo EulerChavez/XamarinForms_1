@@ -6,11 +6,15 @@ using System.Text;
 using Xamarin.Forms;
 
 namespace XamarinForms_1 {
+
     public partial class App : Application {
+
         public App() {
+
             InitializeComponent();
 
-            MainPage = new XamarinForms_1.MainPage();
+            MainPage = new XamarinForms_1.GreetPage();
+
         }
 
         protected override void OnStart() {

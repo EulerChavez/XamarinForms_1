@@ -1,0 +1,12 @@
+﻿- Page Types
+	~ Content: Solo permite un elemento
+	~ MasterDetail
+	~ Navigation
+	~ Carousel
+	...
+
+- xmlns="http://xamarin.com/schemas/2014/forms": De Xamarin, elementos que no poseen prefijos
+
+- xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml": De Microsoft, representa el estandar de XAML
+	    ^-- Prefijo
+
