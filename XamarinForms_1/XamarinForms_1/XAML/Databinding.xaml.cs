@@ -19,6 +19,31 @@ namespace XamarinForms_1.XAML {
 
             InitializeComponent();
 
+            // Primera forma
+
+            switch (Device.OS) {
+                case TargetPlatform.iOS:
+                    Padding = new Thickness(0, 20, 0, 0);
+                    break;
+                case TargetPlatform.Android:
+                    Padding = new Thickness(40, 20, 0, 0);
+                    break;
+            }
+
+            // Segunda forma
+
+            Padding = Device.OnPlatform(
+                iOS: new Thickness(0, 20, 0, 0),
+                Android: new Thickness(40, 20, 0, 0),
+                WinPhone: new Thickness(0, 0, 0, 0));
+
+            // Tercera forma
+
+            Device.OnPlatform(
+                iOS: () => { Padding = new Thickness(0, 20, 0, 0); },
+                Android: () => { Padding = new Thickness(40, 20, 0, 0); });
+
+
         }
 
     }
