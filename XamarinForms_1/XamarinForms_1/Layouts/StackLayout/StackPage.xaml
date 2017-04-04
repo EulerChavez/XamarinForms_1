@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinForms_1.Layouts.StackLayout.StackPage"
+             Title="StackPage"
+             Padding="0, 20, 0, 0">
+    <StackLayout>
+        <Label x:Name="Label 1" />
+        <Label x:Name="Label 2" />
+        <Label x:Name="Label 3" />
+    </StackLayout>
+</ContentPage>
