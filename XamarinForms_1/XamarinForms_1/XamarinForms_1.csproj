@@ -41,6 +41,9 @@
     <Compile Include="GreetPage.xaml.cs">
       <DependentUpon>GreetPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Layouts\StackLayout\StackLayoutExercise1.xaml.cs">
+      <DependentUpon>StackLayoutExercise1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Layouts\StackLayout\StackPage.xaml.cs">
       <DependentUpon>StackPage.xaml</DependentUpon>
     </Compile>
@@ -95,6 +98,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Layouts\StackLayout\StackPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Layouts\StackLayout\StackLayoutExercise1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
