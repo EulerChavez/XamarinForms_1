@@ -19,3 +19,7 @@
 			"Spacing": Tiene un valor por default de 6
 			"Padding": Es la cantidad de espcio entre el Layout y los elementos internos
 			"Orientation": El valor por default es "Vertical"
+
+	~ Grid Layout
+
+- Attached Bindable Properties

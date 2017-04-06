@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using XamarinForms_1.Layouts.Grids;
 using XamarinForms_1.Layouts.StackLayout;
 
 namespace XamarinForms_1 {
@@ -14,7 +15,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new StackLayoutExercise2();
+            MainPage = new GridPage();
 
         }
 
