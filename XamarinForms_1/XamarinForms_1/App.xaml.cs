@@ -15,7 +15,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new GridPage();
+            MainPage = new GridExercise1();
 
         }
 
