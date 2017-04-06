@@ -16,7 +16,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new AbsoluteLayoutExercise1();
+            MainPage = new AbsoluteLayoutExercise2();
 
         }
 
