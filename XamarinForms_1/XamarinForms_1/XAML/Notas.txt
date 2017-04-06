@@ -21,5 +21,11 @@
 			"Orientation": El valor por default es "Vertical"
 
 	~ Grid Layout
+	~ AbsoluteLayout
+		LayoutBounds
+		LayoutFlags
+			Los valores absolutos son por default y mayormente empleados cuando se conoce el tamaño del dispositivo
+			Los valores proporcionales son expresados entre 0 - 1 (0% - 100%), para configurarlo se usa:
+				Flags: None | All | WidthProportional | HeightProportional | XProportional | YProportional | PositionProportional | SizeProportional
 
 - Attached Bindable Properties
