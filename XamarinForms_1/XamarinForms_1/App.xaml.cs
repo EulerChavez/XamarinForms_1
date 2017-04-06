@@ -14,7 +14,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new StackLayoutExercise1();
+            MainPage = new StackLayoutExercise2();
 
         }
 
