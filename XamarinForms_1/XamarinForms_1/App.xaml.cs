@@ -17,7 +17,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new RelativePage();
+            MainPage = new RelativeLayoutExercise();
 
         }
 
