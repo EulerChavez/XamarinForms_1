@@ -6,6 +6,7 @@ using System.Text;
 using Xamarin.Forms;
 using XamarinForms_1.Layouts.AbsoluteLayout;
 using XamarinForms_1.Layouts.Grids;
+using XamarinForms_1.Layouts.RelativeLayout;
 using XamarinForms_1.Layouts.StackLayout;
 
 namespace XamarinForms_1 {
@@ -16,7 +17,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new AbsoluteLayoutExercise2();
+            MainPage = new RelativePage();
 
         }
 
