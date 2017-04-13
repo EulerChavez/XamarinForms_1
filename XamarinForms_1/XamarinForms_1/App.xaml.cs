@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using XamarinForms_1.Images;
 using XamarinForms_1.Layouts.AbsoluteLayout;
 using XamarinForms_1.Layouts.Grids;
 using XamarinForms_1.Layouts.RelativeLayout;
@@ -17,7 +18,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new RelativeLayoutExercise();
+            MainPage = new ImagePage();
 
         }
 

@@ -39,3 +39,12 @@
 
 
 - Attached Bindable Properties
+
+~ Image Sources
+		Platform-Independent (Backgrounds)
+			Use:
+				-Download using a URI
+				-Embed in Portable Class Library (PCL)
+		PLatform-Specific (Icon, Splash Screens ...)
+			Use:
+				-Add to each application project
