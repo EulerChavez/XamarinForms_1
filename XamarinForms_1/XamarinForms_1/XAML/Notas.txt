@@ -48,3 +48,7 @@
 		PLatform-Specific (Icon, Splash Screens ...)
 			Use:
 				-Add to each application project
+		Aspecto:
+				-AspectFill
+				-AspectFit
+				-Fill

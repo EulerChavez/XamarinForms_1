@@ -3,5 +3,5 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinForms_1.Images.ImagePage"
              Title="ImagePage">
-    <Image x:Name="image"/>
+    <Image x:Name="image" />
 </ContentPage>

@@ -18,7 +18,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new ImagePage();
+            MainPage = new ImageIndicatorPage();
 
         }
 

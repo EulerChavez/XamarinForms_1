@@ -41,6 +41,9 @@
     <Compile Include="GreetPage.xaml.cs">
       <DependentUpon>GreetPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Images\ImageIndicatorPage.xaml.cs">
+      <DependentUpon>ImageIndicatorPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Images\ImagePage.xaml.cs">
       <DependentUpon>ImagePage.xaml</DependentUpon>
     </Compile>
@@ -192,7 +195,12 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ImageIndicatorPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\ImagePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
