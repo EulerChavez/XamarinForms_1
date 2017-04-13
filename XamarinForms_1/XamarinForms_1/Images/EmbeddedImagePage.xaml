@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinForms_1.Images.EmbeddedImagePage"
+             xmlns:local="clr-namespace:XamarinForms_1.MarkupExtensions"
              Title="EmbeddedImagePage">
 
-    <Image x:Name="image"/>
+    <Image x:Name="image" Source="{local:EmbeddedImage XamarinForms_1.Images.background.jpg}"/>
+    
 </ContentPage>
