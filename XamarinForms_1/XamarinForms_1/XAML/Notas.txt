@@ -45,10 +45,23 @@
 			Use:
 				-Download using a URI
 				-Embed in Portable Class Library (PCL)
+
 		PLatform-Specific (Icon, Splash Screens ...)
 			Use:
 				-Add to each application project
+		
 		Aspecto:
 				-AspectFill
 				-AspectFit
 				-Fill
+
+		Uso de imagenes para una plataforma en especifica:
+			- IOS:
+				<fileName>.png (32x32)
+				<fileName>@2x.png (64x64)
+				<fileName>@3x.png (94x94)
+			- Android: convencion de nombre de los archivos: minuscula | numeros | guion bajo | 
+				drawable\ (32x32)
+				drawable-hdpi\ (48x48)
+				drawable-xhdpi\ (64x64)
+				drawable-xxhdpi\ (96x96)
