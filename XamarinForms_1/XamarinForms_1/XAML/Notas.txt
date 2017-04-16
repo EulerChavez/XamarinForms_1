@@ -65,3 +65,9 @@
 				drawable-hdpi\ (48x48)
 				drawable-xhdpi\ (64x64)
 				drawable-xxhdpi\ (96x96)
+
+		Icono de la App
+
+		Rouded Images
+			Se necesita un pluging para este tipo de imágenes
+			En github: ImageCirclePlugin - Package: Xam.Plugins.Forms.ImageCircle

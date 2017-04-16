@@ -18,7 +18,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new PlatformSpecificImages();
+            MainPage = new RoundedImagesPage();
 
         }
 
