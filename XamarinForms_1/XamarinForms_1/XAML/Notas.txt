@@ -71,3 +71,6 @@
 		Rouded Images
 			Se necesita un pluging para este tipo de imágenes
 			En github: ImageCirclePlugin - Package: Xam.Plugins.Forms.ImageCircle
+
+		Divice-Indipendent Units
+			160 Units = 1 inch

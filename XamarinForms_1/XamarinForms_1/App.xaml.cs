@@ -9,6 +9,7 @@ using XamarinForms_1.Layouts.AbsoluteLayout;
 using XamarinForms_1.Layouts.Grids;
 using XamarinForms_1.Layouts.RelativeLayout;
 using XamarinForms_1.Layouts.StackLayout;
+using XamarinForms_1.Lists;
 
 namespace XamarinForms_1 {
 
@@ -18,7 +19,7 @@ namespace XamarinForms_1 {
 
             InitializeComponent();
 
-            MainPage = new RoundedImagesPage();
+            MainPage = new ListPage();
 
         }
 
